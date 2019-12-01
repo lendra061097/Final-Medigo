@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Active Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:53:57,2019-12-01 15:55:01,1m - 4.112s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 78.0.3904.108,,,2019-12-01 15:53:57,2019-12-01 15:54:49,51.122s,PASSED
+"openBrowser(""https://hc.staging.medigo.id/login"")",Chrome 78.0.3904.108,,,2019-12-01 15:53:58,2019-12-01 15:54:32,34.645s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Username""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 15:54:32,2019-12-01 15:54:37,4.594s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Password""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 15:54:37,2019-12-01 15:54:39,1.483s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/button_Masuk""))",Chrome 78.0.3904.108,,,2019-12-01 15:54:39,2019-12-01 15:54:40,1.915s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:54:40,2019-12-01 15:54:47,6.433s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:54:47,2019-12-01 15:54:48,0.737s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dashboard/Medigo Logo""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:54:48,2019-12-01 15:54:49,0.955s,PASSED
+,,,,,,,
+Test Cases/View Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:54:49,2019-12-01 15:54:55,6.278s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/Dokter Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:54:49,2019-12-01 15:54:50,1.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dokter/Input Search Dokter""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:54:50,2019-12-01 15:54:55,4.562s,PASSED
+,,,,,,,
+Test Cases/View Active Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:54:55,2019-12-01 15:55:01,6.351s,PASSED
+"click(findTestObject(""Object Repository/Page_Dokter/Aktif Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:54:57,2019-12-01 15:54:58,0.872s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dokter/Status Dokter 1""), ""Aktif"")",Chrome 78.0.3904.108,,,2019-12-01 15:54:58,2019-12-01 15:55:01,3.559s,PASSED

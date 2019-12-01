@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="View Inactive Dokter" time="38.216" tests="3" failures="0" errors="0">
+   <testsuite name="View Inactive Dokter" tests="3" failures="0" errors="0" time="38.216" timestamp="2019-12-01 16:05:10" hostname="admin - localhost" id="Test Suites/View Inactive Dokter">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/Katalon Studio/Medigo Katalon/Reports/20191201_160055/View Inactive Dokter/20191201_160058"/>
+         <property name="logFiles" value="/Users/admin/Katalon Studio/Medigo Katalon/Reports/20191201_160055/View Inactive Dokter/20191201_160058/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="d8eb72ea2f2746f76baa5ef0349ed4be"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="28.575" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-12-01 16:05:10 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-12-01 16:05:10 - [TEST_STEP][PASSED] - openBrowser("https://hc.staging.medigo.id/login"): Browser is opened with url: 'https://hc.staging.medigo.id/login'
+
+2019-12-01 16:05:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-01 16:05:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-01 16:05:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://hc.staging.medigo.id/login'
+
+2019-12-01 16:05:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Masuk/Input Username"), "admintest007"): Text 'admintest007' is set on object 'Object Repository/Page_Masuk/Input Username'
+
+2019-12-01 16:05:33 - [MESSAGE][PASSED] - Text 'admintest007' is set on object 'Object Repository/Page_Masuk/Input Username'
+
+2019-12-01 16:05:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Masuk/Input Password"), "admintest007"): Text 'admintest007' is set on object 'Object Repository/Page_Masuk/Input Password'
+
+2019-12-01 16:05:34 - [MESSAGE][PASSED] - Text 'admintest007' is set on object 'Object Repository/Page_Masuk/Input Password'
+
+2019-12-01 16:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Masuk/button_Masuk")): Object: 'Object Repository/Page_Masuk/button_Masuk' is clicked on
+
+2019-12-01 16:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk/button_Masuk' is clicked on
+
+2019-12-01 16:05:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Masuk/Decline Notification Permission Button"), 30): Object 'Object Repository/Page_Masuk/Decline Notification Permission Button' is present
+
+2019-12-01 16:05:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Masuk/Decline Notification Permission Button' is present
+
+2019-12-01 16:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Masuk/Decline Notification Permission Button")): Object: 'Object Repository/Page_Masuk/Decline Notification Permission Button' is clicked on
+
+2019-12-01 16:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Masuk/Decline Notification Permission Button' is clicked on
+
+2019-12-01 16:05:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Dashboard/Medigo Logo"), 30): Object 'Object Repository/Page_Dashboard/Medigo Logo' is present
+
+2019-12-01 16:05:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard/Medigo Logo' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Dokter" time="3.367" classname="Test Cases/View Dokter" status="PASSED">
+         <system-out><![CDATA[2019-12-01 16:05:38 - [TEST_CASE][PASSED] - Test Cases/View Dokter: Test Cases/View Dokter
+
+2019-12-01 16:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dashboard/Dokter Button")): Object: 'Object Repository/Page_Dashboard/Dokter Button' is clicked on
+
+2019-12-01 16:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard/Dokter Button' is clicked on
+
+2019-12-01 16:05:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Dokter/Input Search Dokter"), 30): Object 'Object Repository/Page_Dokter/Input Search Dokter' is present
+
+2019-12-01 16:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dokter/Input Search Dokter' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Tidak Aktif Dokter" time="5.744" classname="Test Cases/View Tidak Aktif Dokter" status="PASSED">
+         <system-out><![CDATA[2019-12-01 16:05:42 - [TEST_CASE][PASSED] - Test Cases/View Tidak Aktif Dokter: Test Cases/View Tidak Aktif Dokter
+
+2019-12-01 16:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dokter/Tidak Aktif Button")): Object: 'Object Repository/Page_Dokter/Tidak Aktif Button' is clicked on
+
+2019-12-01 16:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dokter/Tidak Aktif Button' is clicked on
+
+2019-12-01 16:05:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-12-01 16:05:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-01 16:05:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dokter/Status Dokter 1"), "Tidak Aktif"): Actual text and expected text of test object 'Object Repository/Page_Dokter/Status Dokter 1' are matched.
+
+2019-12-01 16:05:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dokter/Status Dokter 1' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-01 16:05:10 - [TEST_SUITE][PASSED] - View Inactive Dokter: Test Cases/View Tidak Aktif Dokter]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

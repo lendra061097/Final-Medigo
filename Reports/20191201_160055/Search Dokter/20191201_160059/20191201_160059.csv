@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search Dokter,Chrome 78.0.3904.108,,,2019-12-01 16:06:02,2019-12-01 16:06:50,47.711s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 78.0.3904.108,,,2019-12-01 16:06:02,2019-12-01 16:06:42,39.675s,PASSED
+"openBrowser(""https://hc.staging.medigo.id/login"")",Chrome 78.0.3904.108,,,2019-12-01 16:06:03,2019-12-01 16:06:34,31.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Username""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 16:06:34,2019-12-01 16:06:35,0.734s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Password""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 16:06:35,2019-12-01 16:06:36,0.991s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/button_Masuk""))",Chrome 78.0.3904.108,,,2019-12-01 16:06:36,2019-12-01 16:06:37,0.848s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""), 30)",Chrome 78.0.3904.108,,,2019-12-01 16:06:37,2019-12-01 16:06:41,4.742s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""))",Chrome 78.0.3904.108,,,2019-12-01 16:06:41,2019-12-01 16:06:42,0.316s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dashboard/Medigo Logo""), 30)",Chrome 78.0.3904.108,,,2019-12-01 16:06:42,2019-12-01 16:06:42,0.278s,PASSED
+,,,,,,,
+Test Cases/View Dokter,Chrome 78.0.3904.108,,,2019-12-01 16:06:42,2019-12-01 16:06:46,4.078s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/Dokter Button""))",Chrome 78.0.3904.108,,,2019-12-01 16:06:42,2019-12-01 16:06:43,0.680s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dokter/Input Search Dokter""), 30)",Chrome 78.0.3904.108,,,2019-12-01 16:06:43,2019-12-01 16:06:46,3.301s,PASSED
+,,,,,,,
+Test Cases/Search Dokter,Chrome 78.0.3904.108,,,2019-12-01 16:06:46,2019-12-01 16:06:50,3.774s,PASSED
+"name = ""bdi""",Chrome 78.0.3904.108,,,2019-12-01 16:06:46,2019-12-01 16:06:46,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Dokter/Input Search Dokter""), name)",Chrome 78.0.3904.108,,,2019-12-01 16:06:46,2019-12-01 16:06:47,0.369s,PASSED
+delay(3),Chrome 78.0.3904.108,,,2019-12-01 16:06:47,2019-12-01 16:06:50,3.014s,PASSED
+"compare_name = getText(findTestObject(""Object Repository/Page_Dokter/Nama Dokter 1"")).toString()",Chrome 78.0.3904.108,,,2019-12-01 16:06:50,2019-12-01 16:06:50,0.278s,PASSED
+UpperCaseName = name.toUpperCase(),Chrome 78.0.3904.108,,,2019-12-01 16:06:50,2019-12-01 16:06:50,0.001s,PASSED
+if (compare_name.contains(name) == true),Chrome 78.0.3904.108,,,2019-12-01 16:06:50,2019-12-01 16:06:50,0.002s,PASSED
+else if (compare_name.contains(UpperCaseName) == true),Chrome 78.0.3904.108,,,2019-12-01 16:06:50,2019-12-01 16:06:50,0.005s,PASSED

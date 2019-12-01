@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+View Dokter,Chrome 78.0.3904.108,,,2019-12-01 16:01:56,2019-12-01 16:03:55,1m - 59.861s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 78.0.3904.108,,,2019-12-01 16:01:56,2019-12-01 16:03:52,1m - 56.161s,FAILED
+"openBrowser(""https://hc.staging.medigo.id/login"")",Chrome 78.0.3904.108,,,2019-12-01 16:01:56,2019-12-01 16:02:19,22.988s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Username""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 16:02:19,2019-12-01 16:02:21,1.889s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Password""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 16:02:21,2019-12-01 16:02:23,1.880s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/button_Masuk""))",Chrome 78.0.3904.108,,,2019-12-01 16:02:23,2019-12-01 16:02:30,6.964s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""), 30)",Chrome 78.0.3904.108,,,2019-12-01 16:02:30,2019-12-01 16:03:11,41.409s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""))",Chrome 78.0.3904.108,,,2019-12-01 16:03:11,2019-12-01 16:03:52,40.761s,FAILED
+,,,,,,,
+Test Cases/View Dokter,Chrome 78.0.3904.108,,,2019-12-01 16:03:52,2019-12-01 16:03:55,3.477s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/Dokter Button""))",Chrome 78.0.3904.108,,,2019-12-01 16:03:52,2019-12-01 16:03:53,1.253s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dokter/Input Search Dokter""), 30)",Chrome 78.0.3904.108,,,2019-12-01 16:03:53,2019-12-01 16:03:55,2.027s,PASSED

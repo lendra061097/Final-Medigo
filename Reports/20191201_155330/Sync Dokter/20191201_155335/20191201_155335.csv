@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sync Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:54:30,2019-12-01 15:55:23,52.385s,FAILED
+,,,,,,,
+Test Cases/Login,Chrome 78.0.3904.108,,,2019-12-01 15:54:34,2019-12-01 15:55:15,40.222s,PASSED
+"openBrowser(""https://hc.staging.medigo.id/login"")",Chrome 78.0.3904.108,,,2019-12-01 15:54:37,2019-12-01 15:55:06,28.886s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Username""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 15:55:06,2019-12-01 15:55:08,1.733s,PASSED
+"setText(findTestObject(""Object Repository/Page_Masuk/Input Password""), ""admintest007"")",Chrome 78.0.3904.108,,,2019-12-01 15:55:08,2019-12-01 15:55:09,1.389s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/button_Masuk""))",Chrome 78.0.3904.108,,,2019-12-01 15:55:09,2019-12-01 15:55:10,0.641s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:55:10,2019-12-01 15:55:14,4.033s,PASSED
+"click(findTestObject(""Object Repository/Page_Masuk/Decline Notification Permission Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:55:14,2019-12-01 15:55:14,0.393s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dashboard/Medigo Logo""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:55:14,2019-12-01 15:55:15,0.304s,PASSED
+,,,,,,,
+Test Cases/View Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:55:15,2019-12-01 15:55:19,4.400s,PASSED
+"click(findTestObject(""Object Repository/Page_Dashboard/Dokter Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:55:15,2019-12-01 15:55:16,1.016s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Dokter/Input Search Dokter""), 30)",Chrome 78.0.3904.108,,,2019-12-01 15:55:16,2019-12-01 15:55:19,3.062s,PASSED
+,,,,,,,
+Test Cases/Sync Dokter,Chrome 78.0.3904.108,,,2019-12-01 15:55:19,2019-12-01 15:55:23,3.777s,FAILED
+"click(findTestObject(""Object Repository/Page_Dokter/Sync Button""))",Chrome 78.0.3904.108,,,2019-12-01 15:55:19,2019-12-01 15:55:20,0.469s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Dokter/Button Sync""))",Chrome 78.0.3904.108,,,2019-12-01 15:55:20,2019-12-01 15:55:23,3.158s,FAILED
