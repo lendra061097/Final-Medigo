@@ -17,4 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/Page_Dokter/Aktif Button'))
 
+WebUI.delay(5)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dokter/Status Dokter 1'), 'Aktif')

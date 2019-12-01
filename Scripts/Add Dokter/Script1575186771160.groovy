@@ -16,24 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://hc.staging.medigo.id/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_Masuk/Input Username'), "admintest007")
-
-WebUI.setText(findTestObject('Object Repository/Page_Masuk/Input Password'), "admintest007")
-
-WebUI.click(findTestObject('Object Repository/Page_Masuk/button_Masuk'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Masuk/Decline Notification Permission Button'), 30)
-
-WebUI.click(findTestObject('Object Repository/Page_Masuk/Decline Notification Permission Button'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dashboard/Medigo Logo'), 30)
-
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/Dokter Button'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Dokter/Input Search Dokter') ,30)
-
 WebUI.click(findTestObject('Object Repository/Page_Dokter/Add Dokter Button'))
 
 def NamaDokter='Syailendra'
@@ -59,6 +41,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Tambah Dokter/Input Spesial
 WebUI.setText(findTestObject('Object Repository/Page_Tambah Dokter/Input Poliklinik'), 'Akupuntur')
 
 WebUI.click(findTestObject('Object Repository/Page_Tambah Dokter/div_Simpan'))
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Object Repository/Page_Dokter/Input Search Dokter'), NamaDokter)
 
